@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 -c "import compileall; compileall.compile_file('$PYFILE', force=True, optimize=2)"
+python3 -m compileall --force --optimize=2 $PYFILE
