@@ -1,9 +1,13 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-last_d = abs(number) % 10
-print(f"Last digit of {number} is", end=" ")
+
 if number < 0:
+    last_d = (number) % -10
+if number > 0:
+    last_d = (number) % 10
+print(f"Last digit of {number} is", end=" ")
+if last_d < 0:
     print(f"{-last_d}", end=" ")
 else:
     print(f"{last_d}", end=" ")
