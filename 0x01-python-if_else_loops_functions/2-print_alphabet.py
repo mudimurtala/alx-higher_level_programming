@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-fo
-    print((i), end="")
+for i in range(97, 122):
+    print(f"{alpha}", end="")
