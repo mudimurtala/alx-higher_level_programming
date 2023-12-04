@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 
+#for i in range(0, 99):
+#    dec_hex = "{} = {}".format(i, hex(i))
+#    print(dec_hex)
+
+#!/usr/bin/python3
 for i in range(0, 99):
-    dec_hex = "{} = {}".format(i, hex(i))
-    print(dec_hex)
+    print("{num} = 0x{num:x}".format(num=i))
