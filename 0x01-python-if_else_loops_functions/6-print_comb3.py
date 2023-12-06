@@ -14,4 +14,4 @@ for i in range(10):
         if i < 9 or j < 9:  # Check if it's not the last combination
             print(combination, end=", ")
         else:
-            print(combination end="")
+            print(combination end="\n")
