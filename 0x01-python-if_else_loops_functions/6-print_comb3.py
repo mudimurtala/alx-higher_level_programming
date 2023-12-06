@@ -6,5 +6,5 @@
 #        print("{}".format(99), end="\n")
 
 for i in range(0, 10):
-    for i in range(0, 10):
+    for i in range(1, 9):
         print("{:02d}, ".format(i), end="")
