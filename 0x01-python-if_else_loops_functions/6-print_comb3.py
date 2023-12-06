@@ -5,5 +5,6 @@
 #    else:
 #        print("{}".format(99), end="\n")
 
-for i in range(0, 10):
-    print("{:02d}, ".format(''.join(map(str, i + 1))), end="")
+#for i in range(0, 10):
+#    print("{:02d}, ".format(''.join(map(str, i + 1))), end="")
+
