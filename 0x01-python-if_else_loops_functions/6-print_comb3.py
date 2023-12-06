@@ -15,4 +15,4 @@ for i in range(10):
             print(combination, end=", ")
         else:
             print(combination, end="\n")
-    print("\n")
+        print("\n")
