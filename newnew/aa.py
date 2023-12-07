@@ -10,11 +10,14 @@ difference_set = my_set.difference(other_set)
 subset_set = my_set.issubset(other_set)
 my_set_copy = my_set.copy()
 set_a = set([1, 2, 3, 4, 5])
+set_b = {3, 4, 5, 6, 7}
+symmetric_difference_set = set_a.symmetric_difference(set_b)
 
 
 
 
-
+print(symmetric_difference_set)
+print(set_a, set_b)
 print(my_set_copy)
 print(subset_set)
 print(difference_set)
