@@ -15,9 +15,14 @@ symmetric_difference_set = set_a.symmetric_difference(set_b)
 difference_update_set = set_a.difference_update(set_b)
 disjoint_set = set_a.isdisjoint(set_b)
 frozen_set = frozenset({1, 2, 3, 4, 5})
+square_set = {x**2 for x in range(1, 11)}
 
 
 
+
+
+
+print(square_set)
 #print(frozen_set)
 #print(disjoint_set)
 #rint(difference_update_set)
