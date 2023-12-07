@@ -9,7 +9,7 @@ intersection_set = my_set.intersection(other_set)
 difference_set = my_set.difference(other_set)
 subset_set = my_set.issubset(other_set)
 my_set_copy = my_set.copy()
-
+set_a = set([1, 2, 3, 4, 5])
 
 
 
