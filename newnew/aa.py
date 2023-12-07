@@ -56,8 +56,8 @@ common_elements = set_c.intersection(set_d)
 #    print("more")
 
 words = ['cat', 'window', 'defenestrate']
-for y in words:
-    print(y, len(y))
+for yes in words:
+    print(yes, len(yes))
 
 
 
