@@ -12,10 +12,10 @@ my_set_copy = my_set.copy()
 set_a = set([1, 2, 3, 4, 5])
 set_b = {3, 4, 5, 6, 7}
 symmetric_difference_set = set_a.symmetric_difference(set_b)
+difference_update_set = set_a.difference_update(set_b)
 
 
-
-
+print(difference_update_set)
 print(symmetric_difference_set)
 print(set_a, set_b)
 print(my_set_copy)
