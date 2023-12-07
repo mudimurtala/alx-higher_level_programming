@@ -44,16 +44,20 @@ common_elements = set_c.intersection(set_d)
 #print(result)
 #print(my_set)
 
-x = int(input("Please enter an imteger: "))
-if x < 0:
-    x = 0
-    print("Negative changed to zero")
-elif x == 0:
-    print("zero")
-elif x == 1:
-    print("single")
-else:
-    print("more")
+#x = int(input("Please enter an imteger: "))
+#if x < 0:
+#    x = 0
+#    print("Negative changed to zero")
+#elif x == 0:
+#    print("zero")
+#elif x == 1:
+#    print("single")
+#else:
+#    print("more")
+
+words = ['cat', 'window', 'defenestrate']
+for w in words:
+    print(w, len(w))
 
 
 
