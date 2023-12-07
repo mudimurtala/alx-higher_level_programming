@@ -16,13 +16,13 @@ difference_update_set = set_a.difference_update(set_b)
 disjoint_set = set_a.isdisjoint(set_b)
 frozen_set = frozenset({1, 2, 3, 4, 5})
 square_set = {x**2 for x in range(1, 11)}
+original_list = [1, 2, 2, 3, 4, 4, 5]
+original_list = set(original_list)
 
 
-
-
-
-
-print(square_set)
+print(original_list)
+print(original_list)
+#print(square_set)
 #print(frozen_set)
 #print(disjoint_set)
 #rint(difference_update_set)
