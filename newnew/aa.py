@@ -8,10 +8,10 @@ union_set = my_set.union(other_set)
 intersection_set = my_set.intersection(other_set)
 difference_set = my_set.difference(other_set)
 subset_set = my_set.issubset(other_set)
+my_set_copy = my_set.copy()
 
 
-
-
+print(my_set_copy)
 print(subset_set)
 print(difference_set)
 print(intersection_set)
