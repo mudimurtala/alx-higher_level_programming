@@ -14,7 +14,7 @@ set_b = {3, 4, 5, 6, 7}
 symmetric_difference_set = set_a.symmetric_difference(set_b)
 difference_update_set = set_a.difference_update(set_b)
 disjoint_set = set_a.isdisjoint(set_b)
-forzen_set = frozenset([1, 2, 3, 4, 5])
+forzen_set = frozenset({1, 2, 3, 4, 5})
 
 
 
