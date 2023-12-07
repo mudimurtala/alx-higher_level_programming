@@ -11,6 +11,10 @@ subset_set = my_set.issubset(other_set)
 my_set_copy = my_set.copy()
 
 
+
+
+
+
 print(my_set_copy)
 print(subset_set)
 print(difference_set)
