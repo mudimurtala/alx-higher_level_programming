@@ -24,9 +24,9 @@ common_elements = set_c.intersection(set_d)
 
 
 
-print(common_elements)
-print(set_c, end="\n")
-print(set_d)
+#print(common_elements)
+#print(set_c, end="\n")
+#print(set_d)
 #print(original_list)
 #print(original_list)
 #print(square_set)
@@ -43,3 +43,19 @@ print(set_d)
 #print(other_set)
 #print(result)
 #print(my_set)
+
+x = int(input("Please enter an imteger: "))
+if x < 0:
+    x = 0
+    print("Negative changed to zero")
+elif x == 0:
+    print("zero")
+elif x == 1:
+    print("single")
+else:
+    print("more")
+
+
+
+
+
