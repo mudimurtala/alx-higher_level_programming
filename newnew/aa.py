@@ -20,11 +20,11 @@ original_list = [1, 2, 2, 3, 4, 4, 5]
 original_list = set(original_list)
 set_c = set(['apple', 'banana', 'orange'])
 set_d = set(['banana', 'orange', 'kiwi'])
+common_elements = set_c.intersection(set_d)
 
 
 
-
-
+print(common_elements)
 print(set_c, end="\n")
 print(set_d)
 #print(original_list)
