@@ -18,10 +18,17 @@ frozen_set = frozenset({1, 2, 3, 4, 5})
 square_set = {x**2 for x in range(1, 11)}
 original_list = [1, 2, 2, 3, 4, 4, 5]
 original_list = set(original_list)
+set_c = set(['apple', 'banana', 'orange'])
+set_d = set(['banana', 'orange', 'kiwi'])
 
 
-print(original_list)
-print(original_list)
+
+
+
+print(set_c, end="\n")
+print(set_d)
+#print(original_list)
+#print(original_list)
 #print(square_set)
 #print(frozen_set)
 #print(disjoint_set)
