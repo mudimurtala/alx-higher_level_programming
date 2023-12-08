@@ -105,5 +105,19 @@ common_elements = set_c.intersection(set_d)
 #    print(items, a[items])
 
 
-a = range(6, 15, 3)
-print(a)
+#a = range(6, 15, 3)
+#print(a)
+
+age = eval(input("Enter age: "))
+
+if age < 5:
+    print("Too young for School")
+
+elif age == 5:
+    print("Go to Kindergarten")
+elif (age > 5) and (age <= 17):
+    grade = age -5
+    print("Go to {} grade".format(grade))
+
+else:
+    print("Go to collage")
