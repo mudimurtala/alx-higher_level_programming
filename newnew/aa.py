@@ -144,6 +144,10 @@
 # for i in range(2, 10):
 #     print("i =", i)
 
-for i in range(1, 21):
-    if ((i % 2) == 0):
-        print("i =", i)
+# for i in range(1, 21):
+#     if ((i % 2) == 0):
+#         print("i =", i)
+
+your_float = input("Enter a float: ")
+your_float = float(your_float)
+print("Round to 2 decimals : {:.2f}".format(your_float))
