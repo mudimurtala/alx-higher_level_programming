@@ -55,11 +55,27 @@ common_elements = set_c.intersection(set_d)
 #else:
 #    print("more")
 
-words = ['cat', 'window', 'defenestrate']
-for yes in words:
-    print(yes, len(yes))
+#words = ['cat', 'window', 'defenestrate']
+#for yes in words:
+#    print(yes, len(yes))
 
+# Create a sample collection
+users = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}
 
+# Strategy:  Iterate over a copy
+for user, status in users.copy().items():
+    if status == 'inactive':
+        del users[user]
+
+print(users)
+
+# Strategy:  Create a new collection
+active_users = {}
+for user, status in users.items():
+    if status == 'active':
+        active_users[user] = status
+
+print(active_users)
 
 
 
