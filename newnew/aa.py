@@ -74,7 +74,7 @@ users = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}
 
 
 
-#children = {'Alani': 'tall', 'Alamu': 'short', 'Alake': 'tall'}
+children = {'Alani': 'tall', 'Alamu': 'short', 'Alake': 'tall'}
 #for child, height in children.copy().items():
 #    if height == 'short':
 #        del children[child]
@@ -89,5 +89,9 @@ for user, status in users.items():
 
 print(active_users)
 
+tall_children = {}
+for child, height in children.items():
+     if height == 'tall':
+          tall_children[child] = height
 
-
+print(tall_children)
