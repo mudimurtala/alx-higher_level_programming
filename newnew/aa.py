@@ -97,5 +97,9 @@ common_elements = set_c.intersection(set_d)
 #print(tall_children)
 
 
-a = list(range(-10, -100, -30))
-print(a)
+zz = list(range(-10, -100, -30))
+print(zz)
+
+a = ['Mary', 'had', 'a', 'little', 'lamb', 2]
+for items in range(len(a)):
+    print(items, a[items])
