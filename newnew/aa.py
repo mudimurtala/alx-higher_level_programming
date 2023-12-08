@@ -60,7 +60,7 @@ common_elements = set_c.intersection(set_d)
 #    print(yes, len(yes))
 
 # Create a sample collection
-users = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}
+#users = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}
 
 # Strategy:  Iterate over a copy
 #for user, status in users.copy().items():
@@ -74,7 +74,7 @@ users = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}
 
 
 
-children = {'Alani': 'tall', 'Alamu': 'short', 'Alake': 'tall'}
+#children = {'Alani': 'tall', 'Alamu': 'short', 'Alake': 'tall'}
 #for child, height in children.copy().items():
 #    if height == 'short':
 #        del children[child]
@@ -82,16 +82,16 @@ children = {'Alani': 'tall', 'Alamu': 'short', 'Alake': 'tall'}
 
 
 # Strategy:  Create a new collection
-active_users = {}
-for user, status in users.items():
-    if status == 'active':
-         active_users[user] = status
+#active_users = {}
+#for user, status in users.items():
+#    if status == 'active':
+#         active_users[user] = status
 
-print(active_users)
+#print(active_users)
 
-tall_children = {}
-for child, height in children.items():
-     if height == 'tall':
-          tall_children[child] = height
+#tall_children = {}
+#for child, height in children.items():
+#     if height == 'tall':
+#          tall_children[child] = height
 
-print(tall_children)
+#print(tall_children)
