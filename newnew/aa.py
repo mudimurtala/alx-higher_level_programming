@@ -105,5 +105,5 @@ common_elements = set_c.intersection(set_d)
 #    print(items, a[items])
 
 
-a = range(10)
+a = range(6, 15, 3)
 print(a)
