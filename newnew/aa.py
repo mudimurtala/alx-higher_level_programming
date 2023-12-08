@@ -148,6 +148,12 @@
 #     if ((i % 2) == 0):
 #         print("i =", i)
 
-your_float = input("Enter a float: ")
-your_float = float(your_float)
-print("Round to 2 decimals : {:.2f}".format(your_float))
+# your_float = input("Enter a float: ")
+# your_float = float(your_float)
+# print("Round to 2 decimals : {:.2f}".format(your_float))
+
+mon1, mon2 = input("Enter what you invest and the interest rate: ").split
+mon1, mon2 = float(mon1, mon2)
+mon2 = {:.2d}.format
+for mon1 in range(1, 10):
+    print
