@@ -95,3 +95,7 @@ common_elements = set_c.intersection(set_d)
 #          tall_children[child] = height
 
 #print(tall_children)
+
+
+a = list(range(-10, -100, -30))
+print(a)
