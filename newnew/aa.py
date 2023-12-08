@@ -63,29 +63,31 @@ common_elements = set_c.intersection(set_d)
 users = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}
 
 # Strategy:  Iterate over a copy
-for user, status in users.copy().items():
-    if status == 'inactive':
-        del users[user]
+#for user, status in users.copy().items():
+#    if status == 'inactive':
+#        del users[user]
 
-print(users)
-
-
+#print(users)
 
 
 
 
-children = {'Alani': 'tall', 'Alamu': 'short', 'Alake': 'tall'}
-for child, height in children.copy().items():
-    if height == 'short':
-        del children[child]
-print(children)
+
+
+#children = {'Alani': 'tall', 'Alamu': 'short', 'Alake': 'tall'}
+#for child, height in children.copy().items():
+#    if height == 'short':
+#        del children[child]
+#print(children)
+
+
 # Strategy:  Create a new collection
-#active_users = {}
-#for user, status in users.items():
-#    if status == 'active':
-#         active_users[user] = status
+active_users = {}
+for user, status in users.items():
+    if status == 'active':
+         active_users[user] = status
 
-#print(active_users)
+print(active_users)
 
 
 
