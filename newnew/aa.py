@@ -186,4 +186,4 @@ while tree_height != 0:
     tree_height -= 1
 for i in range(stump_spaces):
      print(' ', end="")
-# print("#")  
+print("#")  
