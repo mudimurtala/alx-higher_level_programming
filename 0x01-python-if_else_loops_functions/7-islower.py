@@ -4,7 +4,4 @@ def islower(c):
         return True
     else:
         return False
-
-
-character = 'm'
-print(f"Is {character} a lowercase? {islower(character)}")
+    
