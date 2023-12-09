@@ -168,8 +168,10 @@
 # print("Answer : {:.32}".format(i + j))
 
 
-import random
+# 
 
-rand_num = random.randrange(1' 51)
-                            
-
+tree_height = input("How tall is your Tree : ")
+tree_height = int(tree_height)
+spaces = tree_height - 1
+hashes = 1
+stump_spaces = tree_height - 1
