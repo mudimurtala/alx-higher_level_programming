@@ -27,3 +27,7 @@
 #             print(combination, end="\n")
 
 
+# Without :d (default formatting)
+float_value = 3.14
+formatted_string = "{:.2f}".format(float_value)
+print(formatted_string)
