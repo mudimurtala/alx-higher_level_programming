@@ -188,6 +188,7 @@
 #      print(' ', end="")
 # print("#")  
 
-for mur in range(1, 100):
+for mur in range(1, 99):
     print("{:02d}".format(mur), end=", ")
-print()
+    if mur == (98):
+        print(99)
