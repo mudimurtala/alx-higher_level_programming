@@ -18,5 +18,5 @@
 
 for i in range(10):
     for j in range(i + 1, 10):  # Start j from i+1 to avoid duplicates and self-pairs
-        combination = f"{i}{j}"
-        print(combination)
+        combination = f"{i}{j},"
+        print(combination, end=" ")
