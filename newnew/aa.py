@@ -152,8 +152,24 @@
 # your_float = float(your_float)
 # print("Round to 2 decimals : {:.2f}".format(your_float))
 
-mon1, mon2 = input("Enter what you invest and the interest rate: ").split
-mon1, mon2 = float(mon1, mon2)
-mon2 = {:.2d}.format
-for mon1 in range(1, 10):
-    print
+# money = input("How much to invest : ")
+# interest_rate = input("Interest Rate : ")
+# money = float(money)
+# interest_rate = float(interest_rate) * .01
+# for i in range(10):
+#     money = money + (money * interest_rate)
+
+# print("Investment after 10 years : {:.2f}".format(money))
+
+
+# i = .111111111111111111111111111111111111111
+# j = .000000000000000000000000100000000000001
+
+# print("Answer : {:.32}".format(i + j))
+
+
+import random
+
+rand_num = random.randrange(1' 51)
+                            
+
