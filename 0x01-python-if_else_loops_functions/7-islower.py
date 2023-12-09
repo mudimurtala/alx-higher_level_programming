@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 def islower(c):
-    if (c) == ord(c):
+    if ord('a') <= ord(c) <= ord('z'):
         return True
     else:
-        False
+        return False
+
+
+character = 'm'
+print(f"Is {character} a lowercase? {islower(character)}")
