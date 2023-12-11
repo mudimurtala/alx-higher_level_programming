@@ -184,6 +184,8 @@
 #     spaces -= 1
 #     hashes += 2
 #     tree_height -= 1
+
+
 # for i in range(stump_spaces):
 #      print(' ', end="")
 # print("#")  
