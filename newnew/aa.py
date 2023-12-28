@@ -190,7 +190,15 @@
 #      print(' ', end="")
 # print("#")  
 
-for mur in range(1, 99):
-    print("{:02d}".format(mur), end=", ")
-    if mur == (98):
-        print(99)
+# for mur in range(1, 99):
+#     print("{:02d}".format(mur), end=", ")
+#     if mur == (98):
+#         print(99)
+
+fav_food = input("What is my favourite food: ")
+
+if fav_food == "amala":
+    print("Yep! So amazing!")
+else:
+    print("Yuck! That's not it!")
+print("Thanks for playing!")
