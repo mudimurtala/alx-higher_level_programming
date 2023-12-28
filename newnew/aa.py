@@ -195,10 +195,16 @@
 #     if mur == (98):
 #         print(99)
 
-fav_food = input("What is my favourite food: ")
+# fav_food = input("What is my favourite food: ")
 
-if fav_food == "amala":
-    print("Yep! So amazing!")
-else:
-    print("Yuck! That's not it!")
-print("Thanks for playing!")
+# if fav_food == "amala":
+#     print("Yep! So amazing!")
+# else:
+#     print("Yuck! That's not it!")
+# print("Thanks for playing!")
+
+
+
+
+
+
