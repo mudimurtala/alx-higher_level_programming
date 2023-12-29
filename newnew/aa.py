@@ -238,7 +238,14 @@
 
 
 
+def favorite_city(name):
+    name = "Makka"
+    print("One of my favorite cities is" name)
 
+favorite_city()
+favorite_city()
+favorite_city()
+favorite_city()
           
 
 
