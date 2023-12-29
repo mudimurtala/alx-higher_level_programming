@@ -1,4 +1,4 @@
-# #!/usr/bin/python3
+#!/usr/bin/python3
 # my_set = set([1, 2, 3, 4])
 # my_set.add(5)
 # my_set.remove(3)
@@ -221,13 +221,23 @@
 #         print("Air dry")
 
 
+def withdraw_money(current_balance, amount):
+    if (current_balance >= amount):
+        current_balance = current_balance - amount
+        return current_balance
+
+balance = withdraw_money(100,80)
+
+if (balance <= 50):
+    print("WE need to make a deposit")
+else:
+    print("Nothing to see here!")
+
+          
 
 
 
 
-
-
-wash_car(12)
 
 
 
