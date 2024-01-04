@@ -238,14 +238,19 @@
 
 
 
-def favorite_city(name):
-    print("One of my favorite cities is", name)
+# def favorite_city(name):
+#     print("One of my favorite cities is", name)
 
-favorite_city("Makka, Saudi Arabia.")
-favorite_city("Madinah, Saudia.")
-favorite_city("Al-Quds, Palestine.")
-favorite_city("Hong Kong and Beijing, People's Republic of China")
+# favorite_city("Makka, Saudi Arabia.")
+# favorite_city("Madinah, Saudia.")
+# favorite_city("Al-Quds, Palestine.")
+# favorite_city("Hong Kong and Beijing, People's Republic of China")
           
+
+
+
+
+
 
 
 
