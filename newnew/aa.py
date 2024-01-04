@@ -253,6 +253,47 @@
 
 
 
+guests = [
+    'Maria',
+    'Gordon',
+    'Bob',
+]
+
+cities = [
+    'Tokyo',
+    'Dakar',
+    'Mumbai',
+    'Buinos Aires',
+]
+
+
+food = {
+    'appetizer' : 'humus',
+    'entree' : 'gyro wraps',
+    'dessert' : 'baklava',
+}
+
+
+# California state symbols
+# stateBird = 'California quail'
+# stateAnimal = 'Grizzly bear'
+# stateFlower = 'California poppy'
+# statefruit = 'Avocado'
+
+california_symbols = {
+    'bird' : 'California quial',
+    'animal' : 'Grizzly bear',
+    'flower' : 'California poppy',
+    'fruit' : 'Avocado',
+}
+
+print(cities[3])
+print(cities[2])
+print(california_symbols['animal'])
+print(california_symbols['bird'])
+print(california_symbols['flower'])
+
+
 
 
 
