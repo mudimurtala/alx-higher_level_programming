@@ -348,19 +348,46 @@
 
 
 
-spices = [
-    'salt',
-    'pepper',
-    'cumin',
-    'turmeric',
+# spices = [
+#     'salt',
+#     'pepper',
+#     'cumin',
+#     'turmeric',
+# ]
+# for spice in spices:
+#     print(spice)
+# print("No more boring omelettes!")
+
+
+
+
+# i = 5
+# print("Count to 100 by fives:")
+# while i <= 100:
+#     print(i)
+#     i += 5
+# print("List complete!")
+
+
+
+
+
+
+
+
+
+fruits = [
+    'apples',
+    'bananas',
+    'dragon fruit',
+    'mangos',
+    'nectarines',
+    'pears',
 ]
-for spice in spices:
-    print(spice)
-print("No more boring omelettes!")
 
-
-
-
+print("Our fruit selection:")
+for fruit in fruits:
+    print(fruit)
 
 
 
