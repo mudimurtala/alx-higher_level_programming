@@ -253,45 +253,45 @@
 
 
 
-guests = [
-    'Maria',
-    'Gordon',
-    'Bob',
-]
+# guests = [
+#     'Maria',
+#     'Gordon',
+#     'Bob',
+# ]
 
-cities = [
-    'Tokyo',
-    'Dakar',
-    'Mumbai',
-    'Buinos Aires',
-]
-
-
-food = {
-    'appetizer' : 'humus',
-    'entree' : 'gyro wraps',
-    'dessert' : 'baklava',
-}
+# cities = [
+#     'Tokyo',
+#     'Dakar',
+#     'Mumbai',
+#     'Buinos Aires',
+# ]
 
 
-# California state symbols
-# stateBird = 'California quail'
-# stateAnimal = 'Grizzly bear'
-# stateFlower = 'California poppy'
-# statefruit = 'Avocado'
+# food = {
+#     'appetizer' : 'humus',
+#     'entree' : 'gyro wraps',
+#     'dessert' : 'baklava',
+# }
 
-california_symbols = {
-    'bird' : 'California quial',
-    'animal' : 'Grizzly bear',
-    'flower' : 'California poppy',
-    'fruit' : 'Avocado',
-}
 
-print(cities[3])
-print(cities[2])
-print(california_symbols['animal'])
-print(california_symbols['bird'])
-print(california_symbols['flower'])
+# # California state symbols
+# # stateBird = 'California quail'
+# # stateAnimal = 'Grizzly bear'
+# # stateFlower = 'California poppy'
+# # statefruit = 'Avocado'
+
+# california_symbols = {
+#     'bird' : 'California quial',
+#     'animal' : 'Grizzly bear',
+#     'flower' : 'California poppy',
+#     'fruit' : 'Avocado',
+# }
+
+# print(cities[3])
+# print(cities[2])
+# print(california_symbols['animal'])
+# print(california_symbols['bird'])
+# print(california_symbols['flower'])
 
 
 
