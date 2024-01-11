@@ -138,17 +138,48 @@
 
 
 
-def plant_recomendation(care):
-    if care == 'low':
-        print('aloe')
-    elif care == 'medium':
-        print('pothos')
-    elif care == 'high':
-        print('orchid')
+# def plant_recomendation(care):
+#     if care == 'low':
+#         print('aloe')
+#     elif care == 'medium':
+#         print('pothos')
+#     elif care == 'high':
+#         print('orchid')
 
-plant_recomendation('low')
-plant_recomendation('medium')
-plant_recomendation('high')
+# plant_recomendation('low')
+# plant_recomendation('medium')
+# plant_recomendation('high')
+
+
+
+class Person:
+    def __init__(self, age, weight, height, first_name, last_name, catch_phrase):
+        self.age = age
+        self.weight = weight
+        self.height = height
+        self.first_name = first_name
+        self.last_name = last_name
+        self.catch_phrase = catch_phrase
+
+user = Person(29, 60, 160, "murtala", "mudi", "You must win the competition, Mudi Murtala")
+
+print(user.catch_phrase)
+
+class Shago:
+    def __init__(self, adreshi, girma, fadi, suna, lamba, kudinsa):
+        self.adreshi = adreshi
+        self.girma = girma
+        self.fadi = fadi
+        self.suna =suna
+        self.lamba = lamba
+        self.kudinsa = kudinsa
+
+nadaya = Shago("Opposite Road Safety", "Eka Goma(10)", "Gaba Ashirin(20)", "Garejin Alhaji Mudi", 171, "Miliyan Dari(100)")
+print(nadaya.girma)
+print(nadaya.kudinsa)
+print(nadaya.suna)
+print(nadaya.lamba)
+
 
 
 
