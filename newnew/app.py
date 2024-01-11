@@ -114,13 +114,41 @@
 
 
 
-miles = input('Enter a distance in miles: ')
-# Kilometers_value = miles_value * 1.609344
-miles_float = float(miles)
-kilometers = miles_float * 1.609344
-print('That value in kilometers is', end=' ')
-print(kilometers)
+# miles = input('Enter a distance in miles: ')
+# # Kilometers_value = miles_value * 1.609344
+# miles_float = float(miles)
+# kilometers = miles_float * 1.609344
+# print('That value in kilometers is', end=' ')
+# print(kilometers)
 
+
+
+
+# def check_temp(temp):
+#     if temp < 15:
+#         print('Wear a jacket')
+#     elif temp > 25 and temp <= 35:
+#         print('Pack a jacket')
+#     elif temp > 35:
+#         print('Leave the jacket at home')
+
+# check_temp(10)
+# check_temp(30)
+# check_temp(37)
+
+
+
+def plant_recomendation(care):
+    if care == 'low':
+        print('aloe')
+    elif care == 'medium':
+        print('pothos')
+    elif care == 'high':
+        print('orchid')
+
+plant_recomendation('low')
+plant_recomendation('medium')
+plant_recomendation('high')
 
 
 
