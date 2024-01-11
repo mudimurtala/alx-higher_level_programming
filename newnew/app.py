@@ -152,33 +152,98 @@
 
 
 
-class Person:
-    def __init__(self, age, weight, height, first_name, last_name, catch_phrase):
-        self.age = age
-        self.weight = weight
-        self.height = height
-        self.first_name = first_name
-        self.last_name = last_name
-        self.catch_phrase = catch_phrase
 
-user = Person(29, 60, 160, "murtala", "mudi", "You must win the competition, Mudi Murtala")
 
-print(user.catch_phrase)
 
-class Shago:
-    def __init__(self, adreshi, girma, fadi, suna, lamba, kudinsa):
-        self.adreshi = adreshi
-        self.girma = girma
-        self.fadi = fadi
-        self.suna =suna
-        self.lamba = lamba
-        self.kudinsa = kudinsa
 
-nadaya = Shago("Opposite Road Safety", "Eka Goma(10)", "Gaba Ashirin(20)", "Garejin Alhaji Mudi", 171, "Miliyan Dari(100)")
-print(nadaya.girma)
-print(nadaya.kudinsa)
-print(nadaya.suna)
-print(nadaya.lamba)
+# class Person:
+#     def __init__(self, age, weight, height, first_name, last_name, catch_phrase):
+#         self.age = age
+#         self.weight = weight
+#         self.height = height
+#         self.first_name = first_name
+#         self.last_name = last_name
+#         self.catch_phrase = catch_phrase
+
+#     def walk(self):
+#         print("Walking...")
+
+#     def run(self):
+#         print("Running...")
+
+#     def sleep(self):
+#         print("Sleeping...")
+
+# user = Person(29, 60, 160, "murtala", "mudi", "You must win the competition, Mudi Murtala")
+
+# print(user.catch_phrase)
+# user.walk()
+# user.sleep()
+
+# class Shago:
+#     def __init__(self, adreshi, girma, fadi, suna, lamba, kudinsa):
+#         self.adreshi = adreshi
+#         self.girma = girma
+#         self.fadi = fadi
+#         self.suna =suna
+#         self.lamba = lamba
+#         self.kudinsa = kudinsa
+
+#     def itace(self):
+#         print("Akwai Itace da yawa")
+
+#     def masallaci(self):
+#         print("Ee, akwai masallaci guda daya aicki")
+
+#     def rijiya(self):
+#         print("A a, babu rijiya aciki")
+
+
+# nadaya = Shago("Opposite Road Safety", "Eka Goma(10)", "Gaba Ashirin(20)", "Garejin Alhaji Mudi", 171, "Miliyan Dari(100)")
+# print(nadaya.girma)
+# print(nadaya.kudinsa)
+# print(nadaya.suna)
+# print(nadaya.lamba)
+
+# nadaya.itace()
+# nadaya.masallaci()
+# nadaya.rijiya()
+
+
+# class Bottle:
+#     def __init__(self, volume, type_):
+#         self.volume = volume
+#         self.type_ = type_
+
+#     def pour(self):
+#         print("Pouring...")
+
+#     def fill(self):
+#         print("Filling...")
+
+#     def recycle(self):
+#         print("Recycling...")
+
+# flips = [
+#     'heads',
+#     'tails',
+#     'tails',
+#     'heads',
+#     'tails',
+# ]
+
+# print(flips.count('heads'))
+# print(flips.pop())
+
+
+
+
+
+
+
+
+
+
 
 
 
