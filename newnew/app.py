@@ -224,6 +224,10 @@
 #     def recycle(self):
 #         print("Recycling...")
 
+
+
+
+
 # flips = [
 #     'heads',
 #     'tails',
@@ -236,7 +240,91 @@
 # print(flips.pop())
 
 
+# class Attendee:
+#     'Common base class for all attendees'
 
+#     def __init__(self, name, tickets):
+#         self.name = name
+#         self.tickets = tickets
+
+#     def displayAttendee(self):
+#         print('Name : {}, Tickets: {}'.format(self.name, self.tickets))
+
+#     def addTicket(self):
+#         self.tickets += 1
+#         print('{} tickets increased to {}'.format(self.name, self.tickets))
+
+
+# attendee1 = Attendee('B. Giles', 2)
+# attendee2 = Attendee('J. Ortega', 1)
+
+# attendee2.addTicket()
+# attendee2.addTicket()
+
+# attendee1.displayAttendee()
+# attendee2.displayAttendee()
+
+
+# s = "x is"
+# x = 13 % 3 * 2
+# print(s, x)
+
+
+# value = 1
+# count = 0
+# while value < 20:
+#     value += 4
+#     count += 1
+# print("reached", value,"after",count,"iterations")
+
+
+
+# def equal(x,y):
+#     if x == y:
+#         print(x + y)
+#     else:
+#         print(x = y)
+# equal(1,2)
+
+
+# myfile = open('myfile.txt', 'wt')
+# print('hello', file=myfile)
+
+# nums = [1, 2, 3, 4, 5]
+# sum = 0
+# for num in nums:
+#     sum += num
+
+# print(sum)
+
+
+# num = input('Your number?')
+# print('Your number squared is', num*num)
+
+# the_name_of_the_class = "python 101"
+# print(the_name_of_the_class)
+
+# classname = "python 101"
+# print(classname)
+
+# def sqr(x):
+#     # print("the square root of {x} is {x*x}")
+#     # print(f"the square root of x is x^2")
+#     print(f"the square root of {x} is {x*x}")
+#     print("the square root of x is x*x")
+# sqr(4)
+
+
+person = {
+    "name" : "Sunita",
+    "phone" : "212-515-5555",
+    "address" : ["123 Main St", "Sydney"]
+}
+address = person["address"]
+city = address[1]
+print(city)
+print(person["address"][1])
+#print(person[1])
 
 
 
