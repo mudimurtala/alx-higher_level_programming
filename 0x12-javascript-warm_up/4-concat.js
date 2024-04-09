@@ -1,6 +1,6 @@
 #!/usr/bin/node
-
-const args = process.argv;
-const firstArg = args[2];
-const secondArg = args[3];
-console.log(`${firstArg}` + ' is ' + `${secondArg}`);
+let counter = 0;
+while (typeof process.argv[counter + 2] !== 'undefined') {
+  counter++;
+}
+console.log(process.argv[2] + ' is ' + process.argv[3]);
