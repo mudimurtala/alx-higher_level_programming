@@ -1,0 +1,1 @@
+This repository contains solutions to this Alx Project "0x13. JavaScript - Objects, Scopes and Closures"
