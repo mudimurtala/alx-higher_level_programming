@@ -4,5 +4,3 @@ def print_last_digit(number):
     return last_digit
 
 
-
-print_last_digit(1234)
