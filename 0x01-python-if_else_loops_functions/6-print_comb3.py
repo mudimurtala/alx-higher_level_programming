@@ -1,4 +1,6 @@
 #!/usr/bin/python3
-def print_last_digit(number):
-    last_digit = number % 10
-    return last_digit
+def fizzbuzz():
+    for i in range(1, 101):
+        print("{}".format(i), end=" ")
+
+fizzbuzz()
