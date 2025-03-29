@@ -5,7 +5,3 @@ if __name__ == "__main__":
 
 
 
-def my_function(counter=89):
-    print("Counter: {}".format(counter))
-
-my_function(12)
