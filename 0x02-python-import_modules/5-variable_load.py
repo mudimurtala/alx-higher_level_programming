@@ -11,6 +11,6 @@ if __name__ == "__main__":
     b = 5
     operations = [add, sub, mul, div]
     for i in operations:
-        print("{} + {} = {}".format(a, b, i(a, b)))
+        print("{} {} {} = {}".format(a, "?", b, i(a, b)))
 
 
