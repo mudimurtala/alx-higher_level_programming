@@ -2,5 +2,5 @@
 
 import hidden_4
 
-names = dir(hidden_4)
-print(names)
+items = dir(hidden_4)
+print(items)
