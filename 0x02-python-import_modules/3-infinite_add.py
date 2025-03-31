@@ -1,9 +1,6 @@
-#!/usr/bin/python3
-if __name__ == "__main__":
-    import sys
+#!/usr/bin/env python3
 
-    total = 0
+import hidden_4
 
-    for num in sys.argv[1:]:
-        total += int(num)
-    print(total)
+names = dir(hidden_4)
+print(names)
