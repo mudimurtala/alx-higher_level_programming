@@ -6,5 +6,5 @@ if __name__ == "__main__":
 
     items = sorted(items)
     for i in items:
-        if not i.startswith("__"):
+        if i[:2] != "__":
             print(i)
