@@ -4,7 +4,7 @@ import hidden_4
 
 items = dir(hidden_4)
 
+items = sorted(items)
 for i in items:
     if not i.startswith("__"):
-        i = sorted(i)
-    print(i)
+        print(i)
