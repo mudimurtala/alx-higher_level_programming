@@ -1,22 +1,39 @@
 #!/usr/bin/python3
-if __name__ == "__main__":
-    from variable_load_5 import a
-    print(a)
+
+
+# if __name__ == "__main__":
+#     from variable_load_5 import a
+#     print(a)
+
+
+# #!/usr/bin/python3
+# if __name__ == "__main__":
+#     import sys
+
+#     total = 0
+
+#     for num in sys.argv[1:]:
+#         total += int(num)
+#     print(total)
+
+
+# open hidden_4.pyc
+# loop for all the elements in the file
+# if name starts with'_':
+# ignore it
+# else:
+# arrange them in alphabetical order
+# print them one name per line
+
+
 
 
 #!/usr/bin/python3
 if __name__ == "__main__":
-    
     import sys
 
-    argv = sys.argv
-    no_of_argvs = len(argv) - 1
-    for i, arg in enumerate(argv[1:], 1):
-        if no_of_argvs == 0:
-            print("{}: {}".format(i, arg))
-        elif no_of_argvs == 1:
-            print("1 argument:")
-        else:
-            print("{} arguments:".format(no_of_argvs))
+    total = 0
 
-
+    for num in sys.argv[1:]:
+        total += int(num)
+    print(total)
