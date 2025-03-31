@@ -3,4 +3,7 @@
 import hidden_4
 
 items = dir(hidden_4)
-print(items)
+
+for i in items:
+    if (i != '__'):
+        print(items)
