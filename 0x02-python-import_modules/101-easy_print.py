@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-import logging
-logging.info("#pythoniscool")
+import os; os.system('echo "#pythonis cool"')
