@@ -5,7 +5,7 @@ if __name__ == "__main__":
     operator = ["+", "-", "*", "/"]
 
     if len(sys.argv) != 4:
-        print('More than three arguments')
+        print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
     if sys.argv[2] not in operator:
         print("Unknown operator. Available operators: +, -, * and /")
