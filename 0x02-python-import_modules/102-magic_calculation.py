@@ -10,8 +10,3 @@ def magic_calculation(a, b):
         return c
     else:
         return sub(a, b)
-
-
-print(magic_calculation(2, 3))  # Should add 2 + 3, then add 4 and 5
-print(magic_calculation(5, 3))  # Should return 5 - 3 (subtraction)
-print(magic_calculation(10, 20))  # Should add 10 + 20, then add 4 and 5
